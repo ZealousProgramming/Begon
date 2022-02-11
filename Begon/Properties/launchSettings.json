@@ -1,28 +1,33 @@
-﻿{
+{
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
       "applicationUrl": "http://localhost:17926",
-      "sslPort": 44325
+      "sslPort": 0
     }
   },
   "profiles": {
     "Begon": {
       "commandName": "Project",
-      "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:7078;http://localhost:5078",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "applicationUrl": "https://localhost:7078;http://localhost:5078",
+      "dotnetRunMessages": true
     },
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "UseSsl": false,
+      "AppUrl_IISExpress": "http://localhost:5000",
+      "IisExpressBitness": "Default",
+      "HostingModel": "Default",
+      "EnableAnonymousAuthentication": true
     }
   }
 }
