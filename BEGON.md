@@ -17,8 +17,11 @@
 		- Closed Date
 		- Description
 		- List<Comments>
+		- Branch Tag
 	- Create Issue
 		- Submit
+		- Title
+		- (Reported is automatically reported)
 		- Cancel 
 	- Show Details
 - IssueComment:
